@@ -12,9 +12,14 @@
     {{ghost_head}}
   </head>
   <body>
-    <div class="wrapper">
+    <div class="site-wrapper">
+      {{#if @blog.logo}}
+        <header>
+          <a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>
+        </header>
+      {{/if}}
       {{body}}
-      <footer>
+      <footer class="site-footer">
         {{navigation}}
       </footer>
     </div>
