@@ -1,0 +1,13 @@
+{{!< default}}
+{{#if @blog.logo}}
+  <div class="blog-hero">
+    <img src="{{@blog.cover}}" alt="{{@blog.title}}" />
+  </div>
+{{/if}}
+<h1>{{@blog.title}}</h1>
+<hr class="site-hr"></hr>
+<p class="blog-description">{{@blog.description}}</p>
+<h1>Blog Posts</h1>
+<hr class="site-hr"></hr>
+
+{{> "loop"}}
