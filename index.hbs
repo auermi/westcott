@@ -1,13 +1,17 @@
 {{!< default}}
 {{#if @blog.cover}}
-  <div class="blog-hero">
-    <img src="{{@blog.cover}}" alt="{{@blog.title}}" />
-  </div>
+  <img class="blog-hero" src="{{@blog.cover}}" alt="{{@blog.title}}" />
 {{/if}}
-<h1>{{@blog.title}}</h1>
-<hr class="site-hr"></hr>
-<p class="blog-description">{{@blog.description}}</p>
-<h1>Blog Posts</h1>
-<hr class="site-hr"></hr>
+<div class="site-about">
+  <div class="site-sectionheader">
+    <h1>{{@blog.title}}</h1>
+    <hr class="site-hr"></hr>
+  </div>
+  <p class="blog-description">{{@blog.description}}</p>
+</div>
+<div class="site-sectionheader">
+  <h1>Blog Posts</h1>
+  <hr class="site-hr"></hr>
+</div>
 
 {{> loop}}

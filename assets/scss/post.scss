@@ -1,0 +1,50 @@
+.post {
+  margin-bottom: 2em;
+  .post-title {
+    text-decoration: none;
+    color: $grey-dark;
+    font-weight: normal;
+    font-size: 1.75em;
+    line-height: 1.75em;
+    display: inline-block;
+    &:hover {
+      color: $primary;
+    }
+  }
+  .postpage-title:hover {
+    color: $grey-dark;
+  }
+  .post-date {
+    color: $grey-light;
+    font-size: 1.125em;
+    font-weight: normal;
+  }
+  .post-content {
+    margin-top: 3em;
+    h1, h2, h3, h4, h5, h6 {
+      line-height: 200%;
+      margin-top: 0.75em;
+    }
+    img {
+      margin: 1em 0;
+      max-height: 200px;
+    }
+    pre {
+      margin: 1em 0;
+    }
+    hr {
+      margin-top: 1em;
+      border: none;
+      height: 1.5px;
+      background-color: $grey-light;
+      border-radius: 100px;
+    }
+    a:hover {
+      color: $primary;
+    }
+    p {
+      line-height: 175%;
+      font-size: 1.1em;
+    }
+  }
+}

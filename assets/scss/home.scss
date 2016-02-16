@@ -1,0 +1,30 @@
+.blog-hero {
+  width: 100%;
+  margin-bottom: 5em;
+}
+.site-about {
+  margin-bottom: 4em;
+}
+.site-sectionheader {
+  margin-bottom: 2em;
+  h1 {
+    font-size: 1.75em;
+    line-height: 1.75em;
+    display: inline-block;
+    font-weight: normal;
+    color: $grey-dark;
+  }
+}
+.site-hr {
+  border: none;
+  border-top: 4px solid $primary;
+  width: 80px;
+  border-radius: 40px;
+}
+.blog-description {
+  font-size: 1.375em;
+  color: $grey-light;
+  font-family: $font-sans;
+  line-height: 1.625em;
+  width: 66%;
+}

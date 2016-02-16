@@ -1,0 +1,12 @@
+.site-header {
+  height: 208px;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  .blog-logo {
+    margin: auto;
+    img {
+      max-width: 116px;
+    }
+  }
+}

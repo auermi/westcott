@@ -13,16 +13,20 @@
   </head>
   <body>
     <div class="site-wrapper">
-      {{#if @blog.logo}}
-        <header>
-          <a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>
-        </header>
-      {{/if}}
-      {{{body}}}
-      <footer class="site-footer">
-        {{navigation}}
-      </footer>
+      <div class="site-wrapper-inner">
+        {{#if @blog.logo}}
+          <header class="site-header">
+            <a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>
+          </header>
+        {{/if}}
+        {{{body}}}
+        <footer class="site-footer">
+          {{navigation}}
+        </footer>
+      </div>
     </div>
+    <script type="text/javascript" src="{{asset "js/highlight.js"}}"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     {{ghost_foot}}
   </body>
 </html>
