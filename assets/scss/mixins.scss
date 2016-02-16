@@ -4,3 +4,12 @@ $grey-dark: #6F6F6F;
 
 $font-sans: 'Neuzeit Grotesk', 'Helvetica', sans-serif;
 $font-serif: 'Adobe Caslon Pro', serif;
+
+@mixin bp($point) {
+    @if $point == 1400down {
+      @media (max-width: 1400px) { @content; }
+    }
+    @elseif $point == 900down {
+      @media (max-width: 900px) { @content; }
+    }
+}

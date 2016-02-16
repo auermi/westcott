@@ -1,6 +1,7 @@
 .blog-hero {
   width: 100%;
   margin-bottom: 5em;
+  border-radius: 4px;
 }
 .site-about {
   margin-bottom: 4em;
@@ -26,5 +27,8 @@
   color: $grey-light;
   font-family: $font-sans;
   line-height: 1.625em;
-  width: 66%;
+  width: 80%;
+  @include bp(900down) {
+    width: 100%;
+  }
 }
