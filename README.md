@@ -1,11 +1,13 @@
 # Westcott
-A Ghost theme
+A Ghost theme by Michael Auer
 
 ## About Westcott
-Westcott is a theme designed for the minimalist. Named after the Frank Lloyd Wright home, Westcott combines minimalism with elegance creating an easy to use, clean blog.
+Westcott is a theme designed for the minimalist. Named after the Frank Lloyd Wright home, Westcott combines minimalism with elegance providing an easy to use and clean blog.
 
 ## Tips for Usage
-Westcott can be used without a logo or header image but looks best with both.
+- Westcott can be used without a logo or header image but looks best with both.
+- Make use of the navigation links in the ghost dashboard for your social links (i.e. Dribbble, Github, Twitter, etc.)
+- You can set mailto links as well in the navigation menu.
 
 ## Questions?
-Ask me questions on Twitter [@auermi](https://twitter.com/auermi/) 
+Ask me questions on Twitter [@auermi](https://twitter.com/auermi/)
