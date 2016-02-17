@@ -14,11 +14,11 @@
   <body>
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
-        {{#if @blog.logo}}
           <header class="site-header">
-            <a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>
+            {{#if @blog.logo}}
+              <a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>
+            {{/if}}
           </header>
-        {{/if}}
         {{{body}}}
         <footer class="site-footer">
           {{navigation}}
