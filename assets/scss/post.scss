@@ -7,6 +7,11 @@
     font-size: 1.75em;
     line-height: 1.75em;
     display: inline-block;
+    @include bp(620down) {
+      line-height: 1.25em;
+      font-size: 1.25em;
+      margin-bottom: .375em;
+    }
     &:hover {
       color: $primary;
     }
@@ -45,6 +50,12 @@
     p {
       line-height: 175%;
       font-size: 1.1em;
+      margin-bottom: 1em;
+      @include bp(620down) {
+        line-height: 200%;
+      }
+    }
+    br {
       margin-bottom: 1em;
     }
   }

@@ -10,8 +10,13 @@
   .site-wrapper-inner {
     width: 70%;
     margin: 0 auto;
+
     @include bp(1400down) {
       max-width: 900px;
+    }
+    @include bp(620down) {
+      max-width: auto;
+      width: 92%;
     }
   }
 }

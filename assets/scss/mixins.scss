@@ -12,4 +12,7 @@ $font-serif: 'Adobe Caslon Pro', serif;
     @elseif $point == 900down {
       @media (max-width: 900px) { @content; }
     }
+    @elseif $point == 620down {
+      @media (max-width: 620px) { @content; }
+    }
 }
