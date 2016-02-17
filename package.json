@@ -1,7 +1,7 @@
 {
   "name": "westcott",
-  "version": "0.0.1",
-  "description": "A Ghost Blog theme",
+  "version": "1.0.0",
+  "description": "A Ghost theme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/auermi/westcott.git"
