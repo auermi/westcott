@@ -12,4 +12,4 @@ Westcott is a theme designed for the minimalist. Named after the Frank Lloyd Wri
 - You can set mailto links as well in the navigation menu.
 
 ## Questions?
-Ask me questions on Twitter [@auermi](https://twitter.com/auermi/){:target="_blank"}
+Ask me questions on Twitter <a href="https://twitter.com/auermi" target="_blank">@auermi</a>
