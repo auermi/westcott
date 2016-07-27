@@ -1,12 +1,12 @@
 .site-header {
-  height: 208px;
+  height: 160px;
   display: flex;
   display: -webkit-flex;
   display: -ms-flex;
   .blog-logo {
-    margin: auto;
+    margin: auto auto auto 0;
     img {
-      max-width: 116px;
+      max-width: 80px;
     }
   }
 }

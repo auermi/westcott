@@ -8,15 +8,8 @@
 .site-wrapper {
   width: 100%;
   .site-wrapper-inner {
-    width: 70%;
+    max-width: 620px;
     margin: 0 auto;
-
-    @include bp(1400down) {
-      max-width: 900px;
-    }
-    @include bp(620down) {
-      max-width: auto;
-      width: 92%;
-    }
+    padding: 0 20px;
   }
 }

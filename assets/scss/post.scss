@@ -5,13 +5,11 @@
     color: $grey-dark;
     font-weight: normal;
     font-size: 1.75em;
-    line-height: 1.75em;
+    margin-bottom: .5em;
     display: inline-block;
-    @include bp(620down) {
-      line-height: 1.25em;
-      font-size: 1.25em;
-      margin-bottom: .375em;
-    }
+    font-size: 1.5em;
+    margin-bottom: .25em;
+    transition: .2s color;
     &:hover {
       color: $primary;
     }
@@ -44,16 +42,18 @@
       background-color: $grey-light;
       border-radius: 100px;
     }
+    a {
+      color: $primary;
+      transition: opacity .2s;
+    }
     a:hover {
       color: $primary;
     }
     p {
-      line-height: 175%;
+      line-height: 1.6em;
       font-size: 1.1em;
+      opacity: 0.75;
       margin-bottom: 1em;
-      @include bp(620down) {
-        line-height: 200%;
-      }
     }
     br {
       margin-bottom: 1em;
