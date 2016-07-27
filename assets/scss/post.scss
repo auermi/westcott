@@ -1,5 +1,5 @@
 .post {
-  margin-bottom: 2em;
+  margin-bottom: 4em;
   .post-title {
     text-decoration: none;
     color: $grey-dark;
@@ -47,16 +47,22 @@
       transition: opacity .2s;
     }
     a:hover {
-      color: $primary;
+      opacity: 0.7;
     }
     p {
       line-height: 1.6em;
       font-size: 1.1em;
-      opacity: 0.75;
       margin-bottom: 1em;
     }
     br {
       margin-bottom: 1em;
     }
+  }
+}
+.back-to {
+  color: $primary;
+  transition: opacity .2s;
+  &:hover {
+    opacity: 0.7;
   }
 }
